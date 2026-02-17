@@ -1,9 +1,9 @@
-n =int(input("Lütfen bir değer giriniz :"))
 toplam = 0
-for i in range(1,n):
-    if n % i == 0:
-        toplam += i
-if toplam == n:
-    print("Mükemmel sayı.")
+girilen_deger =int(input("Lütfen bir tamsayı giriniz :"))
+for sayi in range(1,girilen_deger):
+    if sayi % girilen_deger == 0:
+        toplam = toplam + girilen_deger
+if toplam == girilen_deger:
+        print("Mükemmel sayı")
 else:
-    print("Mükemmel sayı değildir.")
+        print("Mükemmel sayı değil")
